@@ -11,10 +11,10 @@
 - [Preparando o desafio](#preparando-o-desafio)
 - [Fake API com JSON Server](#fake-api-com-json-server)
 - [O que deve ser alterado na aplicação?](#o-que-deve-ser-alterado-na-aplicação)
-  - [Obs.: Todos esses arquivos devem ser migrados de Javascript para Typescript. Além disso, os arquivos que possuírem componentes em classes devem ser migrados para componentes funcionais.](#obs-todos-esses-arquivos-devem-ser-migrados-de-javascript-para-typescript-além-disso-os-arquivos-que-possuírem-componentes-em-classes-devem-ser-migrados-para-componentes-funcionais)
 - [Preparando ambiente Typescript](#preparando-ambiente-typescript)
 - [Estou com dificuldade na conversão classes -> função](#estou-com-dificuldade-na-conversão-classes---função)
 - [Como deve ficar a aplicação ao final?](#como-deve-ficar-a-aplicação-ao-final)
+- [Executando a aplicação 🚀](#executando-a-aplicação-)
 - [License](#license)
 - [📧 Contato](#-contato)
 
@@ -90,8 +90,9 @@
     - src/App.js;
     - src/index.js;
   
-   
-   ### Obs.: Todos esses arquivos devem ser migrados de Javascript para Typescript. Além disso, os arquivos que possuírem componentes em classes devem ser migrados para componentes funcionais.
+   ```tex
+    ==> Obs.: Todos esses arquivos devem ser migrados de Javascript para Typescript. Além disso, os arquivos que possuírem componentes em classes devem ser migrados para componentes funcionais.
+   ```
 
    <br />
 
@@ -115,6 +116,15 @@
    ## Como deve ficar a aplicação ao final?
    - Nesse desafio, você já recebe a aplicação totalmente funcional, então todos os recursos mostrados no vídeo a seguir, já estão implementados no template e devem assim, permanecer funcionando após as alterações solicitadas, serem aplicadas.
      - [Vídeo Resultado final](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d7d94fcf-b6af-40eb-a215-731ac274e475/Peek_2021-03-10_10-43.mp4)
+
+   ## Executando a aplicação 🚀
+
+   - Efetuar clone repositório => git clone [Chapter02 - Desafio02](https://github.com/BManduca/Chapter02_desafio02_Refactoring_classes_typescript.git)
+   - Acessar o diretório [chapter02_desafio01_ignite_reactjs](https://github.com/BManduca/Chapter02_desafio02_Refactoring_classes_typescript) => instalar as dependências executando o comando yarn
+   - Dar start no servidor => Comando (sudo) yarn server.
+   - Acessar aplicação => localhost:3000 no navegador
+
+   <br />
   
   ## License
   - This project is under the MIT license. See the [LICENSE](LICENSE.md) file  for more details.
